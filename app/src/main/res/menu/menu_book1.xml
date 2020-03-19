@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chilldrenofpatria.Book1Activity">
+
+
+    // remove the audio off item
+<!--    <item-->
+<!--        android:id="@+id/audio_off"-->
+<!--        android:icon="@drawable/ic_audio_off"-->
+<!--        android:title="audioOff"-->
+<!--        app:showAsAction="always"-->
+<!--        android:visible="true"-->
+<!--        />-->
+    <item
+        android:id="@+id/audio_on"
+        android:icon="@drawable/ic_audio_on"
+        android:title="Turn On the Audio"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+    <item
+    android:id="@+id/audio_pause"
+    android:icon="@drawable/ic_audio_pause"
+    android:title="pause"
+    app:showAsAction="always"
+    android:visible="false"
+    />
+    <item
+    android:id="@+id/audio_pause_real"
+    android:icon="@drawable/ic_real_pause_audio"
+    android:title="pause"
+    app:showAsAction="always"
+    android:visible="false"
+    />
+    <item
+        android:id="@+id/audio_play"
+        android:icon="@drawable/ic_play"
+        android:title="Play"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+
+
+    <item
+        android:id="@+id/goback"
+        android:icon="@drawable/ic_back"
+        android:title="Item1"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/action_lastCheckPoint"
+        android:orderInCategory="2"
+        android:title="Go to Last Checkpoint"
+        app:showAsAction="never"
+          />
+    <item
+        android:id="@+id/action_startChapterOver"
+        android:orderInCategory="2"
+        android:title="Start Chapter Over"
+        app:showAsAction="never"
+        />
+
+</menu>

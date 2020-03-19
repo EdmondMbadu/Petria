@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C2_14_7">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        // it was very important to have an orientation for the linear layout
+        // I do not know why for the moment
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            // this is the text view
+            // the font is serif and the color of the font is black
+            <TextView
+                android:id="@+id/text_scrollC2_14_7"
+                android:paddingTop="80dp"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="6dp"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                app:fontFamily="@font/droid_serif"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+
+                android:textColor="#000"/>
+
+
+            <Button
+                android:id="@+id/button_C15_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:background="#BFBFBF"
+                android:textColor="#0E0D0D"
+                android:textSize="16sp"
+                android:text="Continue "
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_marginBottom="20dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

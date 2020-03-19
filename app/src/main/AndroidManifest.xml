@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chilldrenofpatria">
+
+    <uses-permission android:name="android.permission.INTERNET>" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Children of Petria"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".C2_Ad1"></activity>
+        <activity
+            android:name=".C2_24_27"
+            android:label="" />
+        <activity
+            android:name=".C2_24_26"
+            android:label="" />
+        <activity
+            android:name=".C2_24_25"
+            android:label="" />
+        <activity
+            android:name=".C2_24_24"
+            android:label="" />
+        <activity
+            android:name=".C2_24_23"
+            android:label="" />
+        <activity
+            android:name=".C2_24_22"
+            android:label="" />
+        <activity
+            android:name=".C2_24_21"
+            android:label="" />
+        <activity
+            android:name=".C2_24_20"
+            android:label="" />
+        <activity
+            android:name=".C2_24_19"
+            android:label="" />
+        <activity
+            android:name=".C2_24_18"
+            android:label="" />
+        <activity
+            android:name=".C2_24_17"
+            android:label="" />
+        <activity
+            android:name=".C2_24_16"
+            android:label="" />
+        <activity
+            android:name=".C2_24_15"
+            android:label="" />
+        <activity
+            android:name=".C2_24_14"
+            android:label="" />
+        <activity
+            android:name=".C2_24_13"
+            android:label="" />
+        <activity
+            android:name=".C2_24_12"
+            android:label="" />
+        <activity
+            android:name=".C2_24_11"
+            android:label="" />
+        <activity
+            android:name=".C2_24_10"
+            android:label="" />
+        <activity
+            android:name=".C2_24_9"
+            android:label="" />
+        <activity
+            android:name=".C2_24_8"
+            android:label="" />
+        <activity
+            android:name=".C2_24_7"
+            android:label="" />
+        <activity
+            android:name=".C2_24_6"
+            android:label="" />
+        <activity
+            android:name=".C2_24_5"
+            android:label="" />
+        <activity
+            android:name=".C2_24_4"
+            android:label="" />
+        <activity
+            android:name=".C2_24_3"
+            android:label="" />
+        <activity
+            android:name=".C2_24_2"
+            android:label="" />
+        <activity
+            android:name=".C2_28_1"
+            android:label="" />
+        <activity
+            android:name=".C2_27_1"
+            android:label="" />
+        <activity
+            android:name=".C2_26_1"
+            android:label="" />
+        <activity
+            android:name=".C2_24_1"
+            android:label="" />
+        <activity
+            android:name=".C2_25_1"
+            android:label="" />
+        <activity
+            android:name=".C2_23_2"
+            android:label="" />
+        <activity
+            android:name=".C2_23_1"
+            android:label="" />
+        <activity
+            android:name=".C2_22_1"
+            android:label="" />
+        <activity
+            android:name=".C2_21_1"
+            android:label="" />
+        <activity
+            android:name=".C2_20_2"
+            android:label="" />
+        <activity
+            android:name=".C2_20_1"
+            android:label="" />
+        <activity
+            android:name=".C2_19_1"
+            android:label="" />
+        <activity
+            android:name=".C2_18_5"
+            android:label="" />
+        <activity
+            android:name=".C2_18_4"
+            android:label="" />
+        <activity
+            android:name=".C2_18_3"
+            android:label="" />
+        <activity
+            android:name=".C2_18_2"
+            android:label="" />
+        <activity
+            android:name=".C2_18_1"
+            android:label="" />
+        <activity
+            android:name=".C2_17_2"
+            android:label="" />
+        <activity
+            android:name=".C2_17_1"
+            android:label="" />
+        <activity
+            android:name=".C2_16_1"
+            android:label="" />
+        <activity
+            android:name=".C2_15_1"
+            android:label="" />
+        <activity
+            android:name=".C2_14_8"
+            android:label="" />
+        <activity
+            android:name=".C2_14_7"
+            android:label="" />
+        <activity
+            android:name=".C2_14_6"
+            android:label="" />
+        <activity
+            android:name=".C2_14_5"
+            android:label="" />
+        <activity
+            android:name=".C2_14_4"
+            android:label="" />
+        <activity
+            android:name=".C2_14_3"
+            android:label="" />
+        <activity
+            android:name=".C2_14_2"
+            android:label="" />
+        <activity
+            android:name=".C2_14_1"
+            android:label="" />
+        <activity
+            android:name=".C2_13_1"
+            android:label="" />
+        <activity
+            android:name=".C2_12_1"
+            android:label="" />
+        <activity
+            android:name=".C2_11_1"
+            android:label="" />
+        <activity
+            android:name=".C2_10_1"
+            android:label="" />
+        <activity
+            android:name=".C2_9_4"
+            android:label="" />
+        <activity
+            android:name=".C2_9_3"
+            android:label="" />
+        <activity
+            android:name=".C2_9_2"
+            android:label="" />
+        <activity
+            android:name=".C2_9_1"
+            android:label="" />
+        <activity
+            android:name=".C2_8_1"
+            android:label="" />
+        <activity
+            android:name=".C2_7_1"
+            android:label="" />
+        <activity
+            android:name=".C2_6_1"
+            android:label="" />
+        <activity
+            android:name=".C2_5_2"
+            android:label="" />
+        <activity
+            android:name=".C2_5_1"
+            android:label="" />
+        <activity
+            android:name=".C2_4_2"
+            android:label="" />
+        <activity
+            android:name=".C2_4_1"
+            android:label="" />
+        <activity
+            android:name=".C2_3_3"
+            android:label="" />
+        <activity
+            android:name=".C2_3_2"
+            android:label="" />
+        <activity
+            android:name=".C2_3_1"
+            android:label="" />
+        <activity
+            android:name=".C2_2"
+            android:label="" />
+        <activity
+            android:name=".C2_1"
+            android:label="" />
+        <activity android:name=".TheConditions" />
+        <activity
+            android:name=".DancingLights"
+            android:label="" />
+        <activity
+            android:name=".ForceStrike202"
+            android:label="" />
+        <activity
+            android:name=".ForceBolt201"
+            android:label="" />
+        <activity
+            android:name=".StayInTheCoverContinue"
+            android:label="" />
+        <activity
+            android:name=".CastDancingLightsContinue"
+            android:label="" />
+        <activity
+            android:name=".StayInTheCover"
+            android:label="" />
+        <activity
+            android:name=".CastDancingLights"
+            android:label="" />
+        <activity
+            android:name=".CheckTheBody1612Continue"
+            android:label="" />
+        <activity
+            android:name=".FollowTheLight1611Continue"
+            android:label="" />
+        <activity
+            android:name=".TryToDodge15132"
+            android:label="" />
+        <activity
+            android:name=".ReachWithShield15131"
+            android:label="" />
+        <activity
+            android:name=".CheckTheBody1612"
+            android:label="" />
+        <activity
+            android:name=".FollowTheLIght1611"
+            android:label="" />
+        <activity
+            android:name=".ForceStrike9"
+            android:label="" />
+        <activity
+            android:name=".ForceBolt8"
+            android:label="" />
+        <activity
+            android:name=".TryToRunOut"
+            android:label="" />
+        <activity
+            android:name=".ForceBolt6"
+            android:label="" />
+        <activity
+            android:name=".CheckTheBody"
+            android:label="" />
+        <activity
+            android:name=".FollowTheLightAgain"
+            android:label="" />
+        <activity
+            android:name=".ReactWithShield"
+            android:label="" />
+        <activity
+            android:name=".TryToSpeakToHim"
+            android:label="" />
+        <activity
+            android:name=".forceStrikeBolt"
+            android:label="" />
+        <activity
+            android:name=".TryToDodge"
+            android:label="" />
+        <activity
+            android:name=".ForceStrike2"
+            android:label="" />
+        <activity
+            android:name=".ForceBolt"
+            android:label="" />
+        <activity
+            android:name=".SpeakToTheMan"
+            android:label="" />
+        <activity
+            android:name=".SitAndWait"
+            android:label="" />
+        <activity
+            android:name=".ForceStrike"
+            android:label="" />
+        <activity
+            android:name=".ForceBotCantrip"
+            android:label="" />
+        <activity
+            android:name=".GoToSleep"
+            android:label="" />
+        <activity
+            android:name=".FollowTheLight"
+            android:label="" />
+        <activity
+            android:name=".DoleKakawContinue"
+            android:label="" />
+        <activity
+            android:name=".WhatIsThatContinue"
+            android:label="" />
+        <activity
+            android:name=".DoleKakaw"
+            android:label="" />
+        <activity
+            android:name=".KillSomeone"
+            android:label="" />
+        <activity
+            android:name=".YesIDoContinue"
+            android:label="" />
+        <activity
+            android:name=".WhatIsThat"
+            android:label="" />
+        <activity
+            android:name=".YesIDo"
+            android:label="" />
+        <activity
+            android:name=".NO"
+            android:label="" />
+        <activity
+            android:name=".WhoAreYouContinue"
+            android:label="" />
+        <activity
+            android:name=".WhatDoYouWantFromME"
+            android:label="" />
+        <activity
+            android:name=".WhyAreYouHelping"
+            android:label="" />
+        <activity
+            android:name=".WhoAreYou"
+            android:label="" />
+        <activity
+            android:name=".StayInBed"
+            android:label="" />
+        <activity
+            android:name=".FollowHer"
+            android:label="" />
+        <activity
+            android:name=".DoNothing"
+            android:label="" />
+        <activity
+            android:name=".RunOutAndSee"
+            android:label="" />
+        <activity
+            android:name=".HelpMeeNoone"
+            android:label="" />
+        <activity
+            android:name=".Meet_5"
+            android:label="" />
+        <activity
+            android:name=".StayAndWatchBakeryContinue"
+            android:label="" />
+        <activity
+            android:name=".GoToTownHallContinue"
+            android:label="" />
+        <activity
+            android:name=".GoToTownHall"
+            android:label="" />
+        <activity
+            android:name=".StayAndWatchBakery"
+            android:label="" />
+        <activity
+            android:name=".Chapter1Contiinue"
+            android:label="" />
+        <activity
+            android:name=".Chapter1Activity"
+            android:label="@string/title_activity_chapter1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Book1Activity"
+            android:label="@string/title_activity_book1"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6081064785354029~8846507783"/>
+    </application>
+
+</manifest>

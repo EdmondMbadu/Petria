@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".HomeActivity">
+
+    // this is the text for the title
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Children of Petria"
+        android:textColor="#000"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textStyle="italic|bold"
+        android:id="@+id/title_view"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/petria"
+        android:scaleType="fitCenter"
+
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_bennett"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--       android:layout_marginLeft="10dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Book 1. Book Of Bennett Baker "-->
+<!--        android:textColor="#fff"-->
+<!--        android:textSize="15sp"-->
+
+<!--        />-->
+
+    <Button
+        android:id="@+id/button_book1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:background="#262626"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:text="Book 1 Book Of Bennett Baker "
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_book2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="160dp"
+        android:background="#262626"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="Book 2 To be determined "
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/button_book3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="220dp"
+        android:background="#262626"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:text="Book 3. To be determined " />
+
+
+</RelativeLayout>

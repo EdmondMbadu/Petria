@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12110F"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+
+
+    // this is the text for the title
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/patria"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Children of Petria:           An Interactive Novel"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:id="@+id/title_view"
+         android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    // this is the text for the disclaimer
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:text="An interactive based novel written in the universe of DnD."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:id="@+id/text_disclaimer"
+        android:textSize="18sp"
+        android:gravity="center"
+
+        />
+    // to support it
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Open Game License v 1.0a Copyright 2000, Wizards of the Coast, LLC."
+        android:textColor="#fff"
+        android:id="@+id/text_disclaimer2"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textStyle="italic"
+
+        />
+
+
+    // this is the text for the loading percentage
+    // there
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="0 %"
+    android:textColor="#fff"
+    android:textSize="25sp"
+    android:id="@+id/text_view"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@id/progress_bar"
+
+    />
+
+    // this is the code for the progress bar
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Children of Petria</string>
+    <string name="title_activity_book1"></string>
+    <string name="title_activity_chapter1"><font size="6"></font></string>
+    <string name="term_serve"><u>Terms And Conditions</u></string>
+    <string name="app_id"><u>ca-app-pub-6081064785354029~8846507783</u></string>
+    <string name="ad_unit_id"><u>ca-app-pub-6081064785354029/2086454470</u></string>
+
+    <string name="term_servicess">&lt;a href="https://www.termsfeed.com/terms-conditions/1d476b9e9b647fc4039a28bf4b80343b">Terms and Conditions&lt;/a></string>
+</resources>
